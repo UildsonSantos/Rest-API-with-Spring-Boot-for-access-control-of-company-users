@@ -14,6 +14,7 @@ import javax.persistence.Id;
 @Entity
 public class WorkingHours {
     @Id
+    @GeneratedValue
     private Long id;
     private String description;
 
